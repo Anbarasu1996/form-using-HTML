@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post"action="success.html">
+        <fieldset>
+            <legend>REGISTRATION FORM</legend>
+            <label for="frame">NAME:</label>
+            <input type="text" id="frame" name="fn"/><br>
+            <label>PASSWORD:</label>
+            <input type="password"maxlength="8"/><br>
+            <label>AGE:</label>
+            <input type="number" min="1"max="30"/><br>
+            <label>EMAIL:</label>
+            <input type="Email"/><br>
+            <label>RESUME:</label>
+            <input type="file"/><br>
+            <label>D.O.B:</label>
+            <input type="date"/><br>
+            <label>CITY:</label>
+            <select>
+                <option>tamil nadu</option>
+                <option>kerala</option>
+                <option>delhi</option>
+                <option>pondichery</option>
+                <option>andrapradesh</option>
+            </select><br>
+            <label>GENDER:</label>
+            <input type="radio" id="mid"name="g" value="male"/>
+            <label for="mid">male</label>
+            <input type="radio" id="fid"name="g" value="female"/>
+            <label for="fid">female</label><br>
+            <label>EDUCATION:</label>
+            <label>SSLC</label>
+            <input type="checkbox"name="e" value="HIGH SCHOOL"/>
+            <label>PG</label>
+            <input type="checkbox"name="e" value="POST GRAGUATE"/>
+            <label>UG</label>
+            <input type="checkbox"name="e" value="under graguate"/><br>
+            <label>REMARKS:</label>
+            <textarea placeholder="write something within 250 words"rows="10" cols="100"></textarea><br>
+            <input type="submit"/>
+            <input type="reset"/>
+            <button>DO NOTHING</button>
+        </fieldset>
+    </form>
+</body>
+</html>
